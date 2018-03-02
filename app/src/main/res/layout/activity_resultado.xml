@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.092" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvValorIMC"
         android:layout_width="101dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -32,7 +32,7 @@
         android:layout_marginTop="8dp"
         android:text="20.5"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/tvStatusIMC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.894" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvStatusIMC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="160dp"
@@ -54,7 +54,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivStatusIMC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
